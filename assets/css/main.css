@@ -1,0 +1,67 @@
+:root {
+    --color-primary: hsl(47, 88%, 63%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-gray: hsl(0, 0%, 100%);
+    --color-black: hsl(0, 0%, 7%);
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--color-primary);
+    color: var(--color-black);
+    font-family: 'Figtree', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    border-radius: 16px;
+    box-shadow: 8px 8px var(--color-black);
+    width: 320px;
+    height: 436px;
+}
+
+.card-body {
+    margin: 16px;
+}
+
+.card-body > *:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.card img {
+    width: 288px;
+    border-radius: 8px;
+    vertical-align: top;
+}
+
+.badges {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5rem;
+    width: 100%;
+}
+
+.badge {
+    border-radius: .25rem;
+    font-size: .8rem;
+    font-weight: 800;
+    padding: .25rem .5rem;
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+    color: var(--color-black);
+}
