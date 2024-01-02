@@ -15,11 +15,6 @@ body {
     font-family: 'Figtree', sans-serif;
 }
 
-h3 {
-    font-size: 1.3rem;
-    font-weight: 800;
-}
-
 main {
     display: flex;
     justify-content: center;
@@ -93,4 +88,9 @@ main {
 
 .footer img {
     height: 1.67rem;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: 800;
 }
