@@ -40,6 +40,7 @@ h1 {
 }
 
 header {
+    font-size: .85rem;
     font-weight: 600;
 }
 
@@ -54,7 +55,7 @@ header {
 .badge {
     border-radius: .25rem;
     font-weight: 800;
-    padding: .25rem .5rem;
+    padding: .4rem .8rem;
 }
 
 .bg-primary {
@@ -84,7 +85,7 @@ header {
 }
 
 .footer {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     font-size: .9rem;
     font-weight: 800;
 }
