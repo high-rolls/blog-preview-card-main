@@ -15,6 +15,15 @@ body {
     font-family: 'Figtree', sans-serif;
 }
 
+a {
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: var(--color-primary);
+}
+
 main {
     display: flex;
     justify-content: center;
