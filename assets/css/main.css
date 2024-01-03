@@ -22,28 +22,7 @@ main {
     min-height: 100vh;
 }
 
-.card {
-    background-color: var(--color-white);
-    border: 1px solid var(--color-black);
-    border-radius: 16px;
-    box-shadow: 8px 8px var(--color-black);
-    padding: 16px;
-    width: 288px;
-}
-
-
-.card > *:not(:last-child) {
-    margin-bottom: 1rem;
-}
-
-.card-image {
-    width: 288px;
-    border-radius: 8px;
-    vertical-align: top;
-}
-
 .badges {
-    margin-top: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -62,15 +41,33 @@ main {
     color: var(--color-black);
 }
 
-.description {
-    color: var(--color-gray);
-    font-size: .85rem;
-    line-height: 1.4em;
+.card {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    border-radius: 16px;
+    box-shadow: 8px 8px var(--color-black);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 16px;
+    width: 288px;
 }
 
 .card-header {
     font-size: .75rem;
     font-weight: 600;
+}
+
+.card-image {
+    width: 288px;
+    border-radius: 8px;
+    vertical-align: top;
+}
+
+.description {
+    color: var(--color-gray);
+    font-size: .85rem;
+    line-height: 1.4em;
 }
 
 .footer {
